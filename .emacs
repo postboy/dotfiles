@@ -7,6 +7,7 @@
  ;; If there is more than one, they won't work right.
  ;'(default ((t (:family "DejaVu Sans Mono" :foundry "unknown" :slant normal :weight normal :height 143 :width normal)))))
 
+(setq inhibit-startup-screen t)
 (tool-bar-mode -1)
 (auto-fill-mode -1)
 (turn-off-auto-fill)
